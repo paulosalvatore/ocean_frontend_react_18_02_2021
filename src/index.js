@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+function Board() {
+    return <div>Board</div>
+}
+
 // Criação do componente Game
 function Game() {
     return (
