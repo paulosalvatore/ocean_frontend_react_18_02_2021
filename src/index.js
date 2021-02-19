@@ -3,7 +3,25 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 function Board() {
-    return <div>Board</div>
+    return (
+        <div>
+            <div className="board-row">
+                <button className="square">X</button>
+                <button className="square">X</button>
+                <button className="square">X</button>
+            </div>
+            <div className="board-row">
+                <button className="square">X</button>
+                <button className="square">X</button>
+                <button className="square">X</button>
+            </div>
+            <div className="board-row">
+                <button className="square">X</button>
+                <button className="square">X</button>
+                <button className="square">X</button>
+            </div>
+        </div>
+    );
 }
 
 // Criação do componente Game
