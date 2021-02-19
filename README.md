@@ -32,3 +32,7 @@ Esse resultado são dados que o frontend recebe e transforma em informação vis
 
 # Rodar projeto:
 `npm start`
+
+# Diagrama da Aplicação
+
+![diagrama_react](diagrama_react.png)
